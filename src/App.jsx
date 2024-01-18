@@ -1,4 +1,5 @@
 import './App.css'
+import Announcement from './components/Announcement'
 import Cards from './components/Cards'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Hero />
         <Cards />
+        <Announcement />
         </body>
       </main>
   )

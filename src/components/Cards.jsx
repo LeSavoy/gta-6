@@ -1,6 +1,6 @@
 const Cards = () => {
   return (
-    <section className="bg-[#353442] h-[3695px]">
+    <section className="bg-[#353442] h-[2970px]">
         <h3 className="text-white text-5xl pt-28 ml-[320px]">Newswire</h3>
 
         <div className="flex justify-center gap-32 mt-14">
@@ -60,9 +60,12 @@ const Cards = () => {
                     <p className="text-[#7a747e]">November 5, 2023</p>
                 </div>
                 <p className="pl-4 pt-8 text-3xl text-white font-semibold">Get Double Rewards on Naturalist Sample Sales, 3X RDO$ on Fish Sales, a new Community-Inspired Outfit, and More</p>
-            </div>
+            </div>   
+        </div>
 
-            
+        <div className="">
+            <p className="text-center mt-28 text-white text-xl mb-4 cursor-pointer">Views More</p>
+            <hr className="w-48 border text-[#FCAF17] border-[#FCAF17] m-auto"/>
         </div>
     </section>
   )
