@@ -5,7 +5,7 @@ function Header() {
             <img src="./src/assets/logo.png" alt="Rockstar Logo" className="w-16"/>
         </div>
 
-          <ul className="text-white flex items-center justify-center gap-10 text-lg">
+          <ul className="text-white flex items-center justify-center gap-10 text-lg ml-28 transition-all">
             <li className="mr-[-35px]">Games</li>
             <i class='bx bx-chevron-down'></i>
             <li>Newswire</li>
@@ -19,7 +19,7 @@ function Header() {
 
           <div className="text-white flex items-center gap-10">
             <a href="#" className="">
-              <button className="bg-[#FCAF17] h-10 rounded-[0.20rem] w-40 text-black font-semibold text-lg">Get Launcher</button>
+              <button className="bg-[#FCAF17] h-10 rounded-[0.20rem] w-40 text-black font-semibold text-lg hover:bg-[#fca017] transition-all">Get Launcher</button>
             </a>
             <i class='bx bx-search bx-sm'></i>
             <i class='bx bx-user bx-sm' ></i>
