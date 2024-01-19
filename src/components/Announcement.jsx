@@ -1,6 +1,6 @@
 const Announcement = () => {
   return (
-    <section className="bg-[#353442] h-[2970px]">
+    <section className="bg-[#353442] h-[570px]">
       <div className="border-[2px] border-[#FCAF17] rounded-xl mx-[320px] h-[550px] flex  items-center">
         <div>
           <img
